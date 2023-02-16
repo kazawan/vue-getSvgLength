@@ -8,6 +8,7 @@ npx degit https://github.com/kazawan/vue-getSvgLength.git [项目/src/hooks/[use
 ### ⚙️使用
 ```
 import { onMounted } from 'vue'
+import { useGetLen } from './hooks/SvgGetLen/getlen'
 onMounted(() => {
    len.value = useGetLen({
     id: '#c1',
